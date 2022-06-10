@@ -5,8 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+        function mouseover()
+        {
+            document.images["img1"].src="C:\Users\Swaroop\coders club\javascript\phoenix-g03e43fb43_1920.png"
+        }
+        function mouseout()
+        {
+            document.images["img1"].src="C:\Users\Swaroop\coders club\javascript\phoenix-g03e43fb43_1920.png"
+        }
+        function load()
+        {
+            document.images["img1"].src="C:\Users\Swaroop\coders club\javascript\phoenix-g03e43fb43_1920.png"
+        }
+    </script>
 </head>
-<body>
+<body onload="load()">
+    <img name="img1" onmouseover="mouseover()" onmouseout="mouseout()"/>
     
 </body>
 </html>

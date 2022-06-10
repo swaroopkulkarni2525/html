@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>forms</title>
-    <script src="C:\Users\Swaroop\coders club\javascript\function.js"></script>
+    
+    <script src="C:\Users\Swaroop\coders club\javascript\validation.js"></script>
 </head>
 <body>
-    <form action="https://www.geeksforgeeks.org" method="post">
-        firstname :<input type="text" name="firstname" placeholder="enter the name"><br>
+    <form action="#" name="myform" onsubmit="return(validation());">
+        firstname :<input type="text" name="name" placeholder="enter the name"><br>
         password :<input type="password" name="password"><br>
         <input type="checkbox" name="maths" value="on" checked>maths <br>
         <input type="checkbox" name="phy" value="on">phy <br>
@@ -17,7 +18,7 @@
         <input type="radio" name="radio" value="social"> social <br>
         description : <br>
         <textarea name="description" id="" cols="30" rows="10"></textarea>
-        <input type="button" name="submit" value="submit" onclick="myfunction()"><br>
+        <input type="button" name="submit" value="submit" onclick="validation()"><br>
 
     </form>
 </body>
